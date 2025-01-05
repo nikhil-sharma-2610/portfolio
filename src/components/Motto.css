@@ -1,0 +1,11 @@
+.motto {
+  background-color: #1a1a1a;
+  height: 5vh;
+  display: block;
+  margin-left: 340px;
+  text-align: center;
+  padding: 12px;
+  color: silver;
+  font-size: 25px;
+  font-family: sans-serif;
+}

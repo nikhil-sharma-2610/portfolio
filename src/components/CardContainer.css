@@ -1,0 +1,50 @@
+.card-container {
+  display: block;
+  margin-left: 340px;
+  color: aliceblue;
+}
+
+.card0 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  height: 45vh;
+  display: flex;
+}
+
+.sub-carda {
+  flex: 0 1 calc(20% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sub-cardb {
+  flex: 1 1 calc(33.33% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sub-cardb1 {
+  border: 1px solid #ccc;
+  display: block;
+  height: 70px;
+  margin: 5px;
+  text-align: center;
+}
+.sub-cardb2 {
+  border: 1px solid #ccc;
+  display: block;
+  height: fit-content;
+  padding: 53px;
+  margin: 5px;
+}
+
+.sub-cardc {
+  flex: 0 1 calc(30% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}

@@ -1,0 +1,12 @@
+.myjourney {
+  margin-left: 340px;
+  background-color: blue;
+  display: flex;
+  height: 17vh;
+  color: white;
+  font-size: 100px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 5px;
+  font-style: normal;
+}
