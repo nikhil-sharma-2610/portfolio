@@ -36,14 +36,33 @@ const Cards = () => {
             <img
               src={require("./github.png")}
               alt="ALT"
-              style={{ maxWidth: "75%", maxHeight: "75%", height: "auto" }}
+              style={{
+                maxWidth: "75%",
+                maxHeight: "75%",
+                height: "auto",
+                cursor: "pointer",
+              }}
+              onClick={() =>
+                window.open("https://github.com/nikhil-sharma-2610", "_blank")
+              }
             />
           </div>
           <div className="logox">
             <img
               src={require("./linkedin.png")}
               alt="ALT"
-              style={{ maxWidth: "75%", maxHeight: "75%", height: "auto" }}
+              style={{
+                maxWidth: "75%",
+                maxHeight: "75%",
+                height: "auto",
+                cursor: "pointer",
+              }}
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/nikhil-sharma-338320228/",
+                  "_blank"
+                )
+              }
             />
           </div>
         </div>
@@ -52,14 +71,30 @@ const Cards = () => {
             <img
               src={require("./instagram.png")}
               alt="ALT"
-              style={{ maxWidth: "75%", maxHeight: "75%", height: "auto" }}
+              style={{
+                maxWidth: "75%",
+                maxHeight: "75%",
+                height: "auto",
+                cursor: "pointer",
+              }}
+              onClick={() =>
+                window.open("https://www.instagram.com/_nikhil_s__/", "_blank")
+              }
             />
           </div>
           <div className="logox">
             <img
               src={require("./gmail.png")}
               alt="ALT"
-              style={{ maxWidth: "75%", maxHeight: "75%", height: "auto" }}
+              style={{
+                maxWidth: "75%",
+                maxHeight: "75%",
+                height: "auto",
+                cursor: "pointer",
+              }}
+              onClick={() =>
+                (window.location.href = "mailto:your_email@example.com")
+              }
             />
           </div>
         </div>

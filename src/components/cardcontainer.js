@@ -30,10 +30,9 @@ const CardContainer = () => {
   };
 
   const blurRadius = () => {
-    // Adjust these values as needed to control the blur effect
-    const maxBlur = 10; // Maximum blur radius
-    const startBlurScroll = 50; // Scroll percentage to start blurring
-    const endBlurScroll = 80; // Scroll percentage to end blurring
+    const maxBlur = 10;
+    const startBlurScroll = 50;
+    const endBlurScroll = 80;
 
     if (scrollPosition >= startBlurScroll && scrollPosition <= endBlurScroll) {
       const blurAmount =
@@ -42,9 +41,9 @@ const CardContainer = () => {
         maxBlur;
       return blurAmount;
     } else if (scrollPosition < startBlurScroll) {
-      return 0; // No blur before reaching the starting point
+      return 0;
     } else {
-      return maxBlur; // Maximum blur after reaching the ending point
+      return maxBlur;
     }
   };
 
